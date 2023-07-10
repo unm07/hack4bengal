@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap');
+*{
+  font-family: "Rubik",sans-serif;
+}
+.container {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: black;
+  color: white;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container h2 {
+  padding-right: 250px;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.container input {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 40px;
+}
+
+.container button {
+  padding: 10px;
+  background-color: #1577ea;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  border-radius: 40px;
+  font-weight: 500;
+}
+
+
+.container input::placeholder {
+  color: gray;
+}
+
+.container button:hover {
+  background-color: #0D73E8;
+}
+
+.container p {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.container p a {
+  color: #1577ea;
+  text-decoration: none;
+}
+
+.container p a:hover {
+  text-decoration: underline;
+}
+
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding:40px 20px 40px 20px;
+  border: 1px solid #ccc;
+
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: black;
+  color: white;
+}
+
+.container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+/* 
+.container form {
+  display: flex;
+  flex-direction: column;
+} */
+
+.container input {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 40px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.container button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  border-radius: 40px;
+  margin-right: 20px;
+  margin-left: 20px;
+  font-weight: 600;
+}
+
+.container button:hover {
+  background-color: #0056b3;
+}
+
+.container p {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.container p a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.container p a:hover {
+  text-decoration: underline;
+}
+
