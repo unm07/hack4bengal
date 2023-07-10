@@ -26,7 +26,7 @@ In the era of digital advancements, our website provides a secure and convenient
 ## Getting Started
 To use our website, follow these steps:
 
-1. Clone the repository: 'git clone https://github.com/unm07/hack4bengal.git'
+1. Clone the repository: `git clone https://github.com/unm07/hack4bengal.git`
 2. Install the necessary dependencies:
    `npm install`
 3. Replace "YOUR_OPENAI_API_KEY" with your own API key from https://platform.openai.com/account/api-keys
