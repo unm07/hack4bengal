@@ -4,7 +4,7 @@ import "./response.css"
 const { Configuration, OpenAIApi } = require("openai");
 
 const config = new Configuration({
-  apiKey: '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'
+  apiKey: "YOUR_OPENAI_API_KEY"
 });
 
 const openai = new OpenAIApi(config);
